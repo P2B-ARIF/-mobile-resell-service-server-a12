@@ -88,7 +88,7 @@ const run = async () => {
       const query = { advertise: true };
       const results = await allProductsCollection.find(query).toArray();
       res.send(results);
-    });
+    });  
 
     app.put("/advertised/:id", async (req, res) => {
       const id = req.params.id;
