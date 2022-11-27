@@ -63,7 +63,7 @@ const run = async () => {
         res.send("The user already available in the collection");
       }
     });
-
+  
     app.put("/dashboard/userVerify/:email", async (req, res) => {
       const email = req.params.email;
       const query = { email: email };
