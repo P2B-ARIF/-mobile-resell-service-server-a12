@@ -44,7 +44,7 @@ const run = async () => {
       const results = await categoriesCollection.find(query).toArray();
       res.send(results);
     });
-
+  
     app.get("/categories/:name", async (req, res) => {
       const name = req.params.name;
       const query = { category_name: name };
