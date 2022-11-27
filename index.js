@@ -120,7 +120,7 @@ const run = async () => {
       const query = {};
       const results = await usersCollection.find(query).toArray();
       res.send(results);
-    });
+    });  
 
     app.get("/role/:email", async (req, res) => {
       const email = req.params.email;
