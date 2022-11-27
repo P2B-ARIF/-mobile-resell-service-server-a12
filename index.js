@@ -153,7 +153,7 @@ const run = async () => {
       const results = await allProductsCollection.find(query).toArray();
       res.send(results);
     });
-
+   
     app.delete("/deleteProducts/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: ObjectId(id) };
