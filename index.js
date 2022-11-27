@@ -83,7 +83,7 @@ const run = async () => {
       console.log(results);
       res.send(results);
     });
-
+  
     app.get("/advertised", async (req, res) => {
       const query = { advertise: true };
       const results = await allProductsCollection.find(query).toArray();
