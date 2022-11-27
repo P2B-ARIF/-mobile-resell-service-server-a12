@@ -1,0 +1,18 @@
+[
+  {
+    "category_name": "Apple",
+    "category_img": "https://i.ibb.co/K0R23Ch/iphone.jpg"
+  },
+  {
+    "category_name": "Google",
+    "category_img": "https://i.ibb.co/2KzVFkW/google.jpg"
+  },
+  {
+    "category_name": "OnePlus",
+    "category_img": "https://i.ibb.co/zXJGRrR/oneplus.jpg"
+  },
+  {
+    "category_name": "Samsung",
+    "category_img": "https://i.ibb.co/kHgkCXC/samsung.jpg"
+  }
+]
